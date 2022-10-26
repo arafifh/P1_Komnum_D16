@@ -27,7 +27,7 @@ def bisection(x0, x1, e):
     return x2
 
 x0 = 1
-x1 = 3
+x1 = 2
 e = 0.1
 
 if f(x0) * f(x1) > 0.0:
