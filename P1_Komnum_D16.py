@@ -26,9 +26,9 @@ def bisection(x0, x1, e):
 
     return x2
 
-x0 = 1
-x1 = 2
-e = 0.1
+x0 = int(input())
+x1 = int(input())
+e = float(input())
 
 if f(x0) * f(x1) > 0.0:
     print("Given values do not bracket the root.")
