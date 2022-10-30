@@ -35,15 +35,14 @@ if f(x0) * f(x1) > 0.0:
     print("Try Again with different guess values.")
 else:
     root = bisection(x0, x1, e)
-    print("\nRequired Root is : %0.8f" %root)
+    print("\nRoot : %0.8f" %root)
 
 x = numpy.arange(x0, x1, e)
 y = f(x)
 
 def buildGraph():
-    plot.plot(x, y, color = "#ff007f", label="function graph", zorder=0)
-    plot.axvline(x=root, ymin=0, ymax=1, color="pink", zorder=1)
-    plot.scatter(root, f(root), color="red", linewidths=0.5, label="root", zorder=2)
+    plot.plot(x, y, color= "black", label= "graph", zorder= 0)
+    plot.scatter(root, f(root), color= "black", linewidths= 0.5, label="root", zorder= 1)
     plot.xlabel("x-axis")
     plot.ylabel("y-axis")
     plot.title("bolzano method")
