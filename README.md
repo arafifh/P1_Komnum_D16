@@ -5,6 +5,5 @@ Praktikum Komputasi Numerik Kelas D
 <br>Daffa Saskara 5025211249
 
 ## Screenshot
-![image](https://user-images.githubusercontent.com/89500557/198069911-db9a7967-431f-4c7b-a58c-39b194718fa9.png)
-
+![Screenshot_20221030_103837](https://user-images.githubusercontent.com/89500557/198887859-cdc2e56b-91de-42d7-8e61-ce7c751b82b1.png)
 ## Penjelasan
